@@ -361,6 +361,7 @@ span {
 
     .header {
         padding: 2rem 5%;
+        margin-left: 0rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
