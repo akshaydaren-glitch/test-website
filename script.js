@@ -6,6 +6,10 @@ const projectsContent = document.querySelector(".projects-content");
 const completedProjectsSection = document.querySelector(".projects-completed");
 const inProgressProjectsSection = document.querySelector(".projects-in-progress");
 
+function showMessage() {
+  alert("Discord ID = daren_bored");
+}
+
 button.addEventListener("click", () => {
 
 
