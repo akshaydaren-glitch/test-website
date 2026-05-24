@@ -363,6 +363,7 @@ span {
         padding: 2rem 5%;
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
     .navbar a {
         font-size: 1.5rem;
@@ -382,8 +383,15 @@ span {
         flex-direction: column;
         padding: 10rem 5% 10rem 5%;
     }
-    .about-image, .goals-image {
+    .about-image{
         margin: 2rem 0;
+    }
+    .goals-image img {
+        max-width: auto;
+        width: 60%;
+       
+       justify-content: center;
+
     }
     .prototype-img img {
         width: 100%;
