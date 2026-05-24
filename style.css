@@ -34,7 +34,7 @@ html{
 body {
     
     background-color: var(--background-color);
-    background-image: url('ds3bg3.jpg');
+    background-image: url('ds3bg3.png');
     background-size: 100% 100%;
     
     color: var(--text-color);
