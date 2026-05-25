@@ -142,11 +142,17 @@ span {
 }
 .about-image {
     flex: 0.3;
-    display: flex;
-    justify-content: flex-end;
+    object-fit: cover;
+    
     border: 7px solid #000000;
-    border-radius: 10px;
+    border-radius: 50%;
     transition: border 0.5s ease-in-out;
+}
+.about-image img{
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
 }
 
 .goals {
