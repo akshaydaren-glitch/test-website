@@ -372,6 +372,7 @@ span {
     }
     .logo {
         font-size: 2.5rem;
+        margin-bottom: 1rem;
     }
     .Hide-header {
         bottom: -30px;
