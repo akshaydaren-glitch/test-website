@@ -386,7 +386,7 @@ span {
     }
     .about-image img {
         max-width: auto;
-        width: 70%;
+        width: 100%;
        justify-content: center;
 
     }
