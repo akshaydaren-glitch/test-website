@@ -371,6 +371,10 @@ span {
         display: flex;
         flex-direction: column;
     }
+    body{
+        background-size: cover;
+    background-position: center;
+    }
     .navbar a {
         font-size: 1.5rem;
         margin-left: 1.5rem;
