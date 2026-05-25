@@ -383,8 +383,10 @@ span {
         flex-direction: column;
         padding: 10rem 5% 10rem 5%;
     }
-    .about-image{
-        margin: 2rem 0;
+    .about-image img{
+       max-width: auto;
+        width: 70%;
+       justify-content: center;
     }
     .goals-image img {
         max-width: auto;
