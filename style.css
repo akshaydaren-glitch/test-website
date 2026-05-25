@@ -384,7 +384,7 @@ span {
         flex-direction: column;
         padding: 10rem 5% 10rem 5%;
     }
-    .about-image{
+    .about-image img {
         max-width: auto;
         width: 70%;
        justify-content: center;
