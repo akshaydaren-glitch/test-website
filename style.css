@@ -1,5 +1,4 @@
 
-
 *{
     margin: 0;
     padding: 0;
@@ -12,12 +11,15 @@
     
 }
 
+
+
 p{
     font-size: 1.8rem;
-    font-family: 'Cinzel', fantasy;
+    font-family: "Josefin Sans", sans-serif;
     color: var(--text-color);
     line-height: 1.5;
-    font-weight: 200;
+    font-weight: 500;
+     
 }
 html{
     font-size: 60%;
@@ -26,15 +28,15 @@ html{
 
 :root {
     --background-color: #000000;
-    --main-color: #ff0202;
-    --secondary-color: #e3761d;
-    --text-color: #A8A9AD;
+    --main-color: #fbff00;
+    --secondary-color: #ff8623;
+    --text-color: #ff0000;
 }
 
 body {
     
     background-color: var(--background-color);
-    background-image: url('ds3bg3.png');
+    background-image: url('ds3bg4.png');
     background-size: 100% 100%;
     
     color: var(--text-color);
@@ -131,7 +133,7 @@ span {
     text-align: center;
 }
 .about-content h1{
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: var(--main-color);
     margin-bottom: 2rem;
 }
@@ -162,7 +164,7 @@ span {
     align-items: center;
 }
 .goals-content h1{
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: var(--main-color);
     margin-bottom: 2rem;
 }
@@ -203,7 +205,7 @@ span {
    
 }
 .skills-content h1{
-    font-size: 4rem;
+    font-size: 3rem;
     color: var(--main-color);
     margin-bottom: 0em;
     border-bottom: var(--secondary-color) 5px solid;
@@ -241,6 +243,7 @@ span {
 .projects-buttons:hover{
     background-color: red;
     color: black;
+    border-color: var(--secondary-color);
     transform: scale(1.2);
 }
 .projects-buttons button.active,
@@ -268,7 +271,7 @@ span {
     text-align: center;
 }
 .projects-content h1{
-    font-size: 4rem;
+    font-size: 3rem;
     color: var(--main-color);
     margin-bottom: 0em;
     border-bottom: var(--secondary-color) 5px solid;
