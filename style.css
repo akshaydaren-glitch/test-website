@@ -160,6 +160,19 @@ span {
     border-radius: 50%;
 }
 
+.vid video {
+    width: 100%;
+    height: auto;
+    border: 7px solid var(--main-color);
+    border-radius: 10px;
+    transition: border 0.5s ease-in-out;
+}
+.vid h1 {
+    font-size: 3rem;
+    color: var(--secondary-color);
+    margin-bottom: 2rem;
+    text-align: center;
+}
 .goals {
     padding: 15rem 7% 15rem 7%;
     display: flex;
@@ -187,6 +200,8 @@ span {
     justify-content: space-between;
     
 }
+
+
 .goals-content {
     flex: 1;
     margin-left: 13rem;
