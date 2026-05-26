@@ -1,4 +1,5 @@
 
+
 *{
     margin: 0;
     padding: 0;
@@ -146,7 +147,7 @@ span {
     flex: 0.3;
     object-fit: cover;
     
-    border: 7px solid #000000;
+    border: 7px solid var(--secondary-color);
     border-radius: 50%;
     transition: border 0.5s ease-in-out;
 }
@@ -396,10 +397,18 @@ span {
         flex-direction: column;
         padding: 10rem 5% 10rem 5%;
     }
+    .goals-content {
+        margin-left: 0;
+        margin-right: 0;
+    }
     .about-image img{
        max-width: auto;
        
        justify-content: center;
+    }
+    .skills-content {
+        margin-left: 0;
+        margin-right: 0;
     }
     .goals-image img {
         max-width: auto;
