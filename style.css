@@ -14,21 +14,19 @@
     
 }
 
-.roboto-slab-h1 {
-  font-family: "Roboto Slab", serif;
-  font-optical-sizing: auto;
-  font-weight: 373;
-  font-style: normal;
+@font-face {
+    font-family: "Josefin Sans";
+    src: url("JosefinSans-Italic-VariableFont_wght.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
 }
 
-
-.josefin-sans-p {
-  font-family: "Josefin Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
+@font-face {
+    font-family: "adobe-garamond-pro";
+    src: url("EBGaramond-VariableFont_wght.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
 }
-
 p{
     font-size: 1.8rem;
     font-family: "Josefin Sans", sans-serif;
@@ -410,7 +408,7 @@ span {
     background-position: center;
     }
     .navbar a {
-        font-size: 1rem;
+        font-size: 1.4rem;
         margin-left: 1.5rem;
     }
     .logo {
